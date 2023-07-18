@@ -1,0 +1,10 @@
+# application.yml
+# Configuration file for the application
+# Contains various settings and properties for the application
+
+endpoint-tmsandbox:
+    protocol: "https"
+    host: "api.tmsandbox.co.nz"
+    version: "v1"
+    resource: "/Categories/6327/Details.json"
+    query-parameter: "catalogue=false"
