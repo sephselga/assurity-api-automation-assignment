@@ -1,0 +1,13 @@
+<configuration>
+	<logger name="org.apache.hc.client5.http" level="INFO" />
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%-5level [%thread] %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="debug">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>
