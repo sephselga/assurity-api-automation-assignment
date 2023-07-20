@@ -135,11 +135,12 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
 
 Follow these steps to run the tests:
 
-1. **Clone the Project:**
+1. **Clone the Project/Download ZIP:**
    - First, make a copy of the project on your computer by "cloning" it. You can do this by running the following command in the terminal or command prompt:
      ```bash
      git clone https://github.com/your-username/assurity-api-automation-assignment.git
      ```
+  - You can also get the ZIP file of the repository and extracting it to get the actual project.
 
 2. **Import the Project:**
    - Open your Java IDE (Eclipse, IntelliJ, etc.).
