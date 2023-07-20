@@ -109,6 +109,7 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
     <version>1.13.0</version>
 </dependency>
 <!-- Adapter to integrate ExtentReports with Cucumber 7 -->
+```
 
 ## AssertionHelper
 
