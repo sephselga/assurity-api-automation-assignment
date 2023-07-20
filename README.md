@@ -1,8 +1,8 @@
-# Assurity API Automation Assignment
+# API Automation Assignment
 
 ## Project Overview
 
-The "Assurity API Automation Assignment" project aims to automate testing for a specific API using HTTPClient. The goal is to perform tests to check if the API meets certain requirements.
+The "API Automation Assignment" project aims to automate testing for a specific API using HTTPClient. The goal is to perform tests to check if the API meets certain requirements.
 
 ## API
 
