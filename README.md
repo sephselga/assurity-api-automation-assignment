@@ -111,21 +111,15 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
 <!-- Adapter to integrate ExtentReports with Cucumber 7 -->
 ```
 
-### AssertionHelper
+### Class Files
 
-The `AssertionHelper` class contains a custom assertion method called `asserter`, which is used to check if a given condition is true. If the condition is false, an assertion error will be thrown.
+- **AssertionHelper:** The `AssertionHelper` class contains a custom assertion method called `asserter`, which is used to check if a given condition is true. If the condition is false, an assertion error will be thrown.
 
-### HttpApiProcessor
+- **HttpApiProcessor** The `HttpApiProcessor` class handles HTTP requests and responses for API testing. It utilizes HttpClient to perform GET requests, retrieve endpoint details from the configuration, parse and pretty-print JSON responses, and store the formatted JSON for further validations.
 
-The `HttpApiProcessor` class handles HTTP requests and responses for API testing. It utilizes HttpClient to perform GET requests, retrieve endpoint details from the configuration, parse and pretty-print JSON responses, and store the formatted JSON for further validations.
-
-### LogPrinter
-
-The `LogPrinter` class provides utility methods to log API testing information and validation results.
-
-### ResponseValidator
-
-The `ResponseValidator` class provides methods to validate fields in an API response and perform data validation based on the provided DataTable.
+- **LogPrinter:** The `LogPrinter` class provides utility methods to log API testing information and validation results.
+  
+- **ResponseValidator:** The `ResponseValidator` class provides methods to validate fields in an API response and perform data validation based on the provided DataTable.
 
 ### Configuration Files
 
