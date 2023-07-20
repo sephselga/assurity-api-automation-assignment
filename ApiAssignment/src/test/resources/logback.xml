@@ -1,0 +1,28 @@
+<configuration>
+    <!-- Console Appender: Outputs logs to the console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Log message format -->
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender: Outputs logs to a file -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <!-- File name and location for storing logs -->
+        <file>logs/application.log</file>
+        <!-- Append logs to the file (if it exists) instead of overwriting it -->
+        <append>true</append>
+        <encoder>
+            <!-- Log message format -->
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root Logger: Set log level to INFO -->
+    <root level="INFO">
+        <!-- Include console and file appenders in the root logger -->
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

@@ -1,0 +1,936 @@
+13:23:10.472 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.479 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:23:10
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - Per Step
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.480 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:23:10.482 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.483 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:23:10.483 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:23:10.483 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:23:10.483 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.484 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.485 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:23:10.485 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:23:10.485 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:23:10.485 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:23:10
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - Per Field Type
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.707 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:23:10.710 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:23:10.711 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.925 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.925 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.925 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:23:10
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - In One Step
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:23:10.926 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:23:10.927 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+------------------------------------------------------
+------------------------------------------------------
+Date: 2023-07-20
+Time: 13:28:07
+Scenario: Validate fields in API response - Per Step
+------------------------------------------------------
+Payload:
+------------------------------------------------------
+{
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+------------------------------------------------------
+Validation Results:
+------------------------------------------------------
+Field: Name
+Expected Value: Carbon credits
+Actual Value: Carbon credits
+Status: PASSED
+------------------------------------------------------
+Field: CanRelist
+Expected Value: true
+Actual Value: true
+Status: PASSED
+------------------------------------------------------
+Field: Description
+Expected Value: Good position in category
+Actual Value: Good position in category
+Status: PASSED
+------------------------------------------------------
+------------------------------------------------------
+Date: 2023-07-20
+Time: 13:28:07
+Scenario: Validate fields in API response - Per Field Type
+------------------------------------------------------
+Payload:
+------------------------------------------------------
+{
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+------------------------------------------------------
+Validation Results:
+------------------------------------------------------
+Field: Name
+Expected Value: Carbon credits
+Actual Value: Carbon credits
+Status: PASSED
+------------------------------------------------------
+Field: CanRelist
+Expected Value: true
+Actual Value: true
+Status: PASSED
+------------------------------------------------------
+Field: Description
+Expected Value: Good position in category
+Actual Value: Good position in category
+Status: PASSED
+------------------------------------------------------
+------------------------------------------------------
+Date: 2023-07-20
+Time: 13:28:07
+Scenario: Validate fields in API response - In One Step
+------------------------------------------------------
+Payload:
+------------------------------------------------------
+{
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+------------------------------------------------------
+Validation Results:
+------------------------------------------------------
+Field: Name
+Expected Value: Carbon credits
+Actual Value: Carbon credits
+Status: PASSED
+------------------------------------------------------
+Field: CanRelist
+Expected Value: true
+Actual Value: true
+Status: PASSED
+------------------------------------------------------
+Field: Description
+Expected Value: Good position in category
+Actual Value: Good position in category
+Status: PASSED
+13:30:28.935 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:30:28
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - Per Step
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.938 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:30:28.941 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.941 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:30:28.941 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:30:28.941 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:30:28.941 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:28.942 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.942 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:30:28.942 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:30:28.942 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:30:28.942 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:28.943 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:28.943 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:30:28.943 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:30:28.943 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:30:28.943 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.223 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:30:28
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - Per Field Type
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.224 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:30:29.226 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.226 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:30:29.226 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:30:29.227 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.228 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.228 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:30:29.228 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:30:29.228 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:30:29.228 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - Date: 2023-07-20
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - Time: 13:30:28
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - Scenario: Validate fields in API response - In One Step
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.457 [main] INFO  com.assurity.utils.LogPrinter - Payload:
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - {
+  "CategoryId": 6327.0,
+  "Name": "Carbon credits",
+  "Path": "/Business-farming-industry/Carbon-credits",
+  "CanListAuctions": true,
+  "CanListClassifieds": true,
+  "CanRelist": true,
+  "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+  "DefaultDuration": 14.0,
+  "AllowedDurations": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    10.0,
+    14.0
+  ],
+  "Fees": {
+    "Bundle": 15.0,
+    "EndDate": 0.25,
+    "Feature": 10.0,
+    "Gallery": 2.0,
+    "Listing": 29.0,
+    "Reserve": 0.25,
+    "Subtitle": 0.55,
+    "TenDays": 0.25,
+    "ListingFeeTiers": [
+      {
+        "MinimumTierPrice": 0.0,
+        "FixedFee": 29.0
+      }
+    ],
+    "SecondCategory": 0.99
+  },
+  "FreePhotoCount": 20.0,
+  "MaximumPhotoCount": 20.0,
+  "IsFreeToRelist": true,
+  "Promotions": [
+    {
+      "Id": 1.0,
+      "Name": "Basic",
+      "Description": "Lowest position in category",
+      "Price": 0.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 2.0,
+      "Name": "Gallery",
+      "Description": "Good position in category",
+      "Price": 2.0,
+      "OriginalPrice": 2.0,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 3.0,
+      "Name": "Feature",
+      "Description": "Better position in category",
+      "Price": 10.0,
+      "OriginalPrice": 10.0,
+      "Recommended": true,
+      "MinimumPhotoCount": 0.0
+    },
+    {
+      "Id": 4.0,
+      "Name": "Feature Combo",
+      "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+      "Price": 15.0,
+      "OriginalPrice": 15.0,
+      "MinimumPhotoCount": 0.0
+    }
+  ],
+  "EmbeddedContentOptions": [],
+  "MaximumTitleLength": 80.0,
+  "AreaOfBusiness": 1.0,
+  "DefaultRelistDuration": 7.0,
+  "CanUseCounterOffers": true
+}
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - Validation Results:
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - Field: Name
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Carbon credits
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Carbon credits
+13:30:29.458 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Field: CanRelist
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: true
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: true
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - ------------------------------------------------------
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Field: Description
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Expected Value: Good position in category
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Actual Value: Good position in category
+13:30:29.459 [main] INFO  com.assurity.utils.LogPrinter - Status: PASSED
