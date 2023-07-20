@@ -1,8 +1,8 @@
-# API Automation Assignment
+# API Test Automaton using HTTPClient
 
 ## Project Overview
 
-The "API Automation Assignment" project aims to automate testing for a specific API using HTTPClient. The goal is to perform tests to check if the API meets certain requirements.
+The "API Test Automation using HTTPClient" project aims to automate testing for a specific API using HTTPClient. The goal is to perform tests to check if the API meets certain requirements.
 
 ## API
 
