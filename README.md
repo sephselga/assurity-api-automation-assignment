@@ -175,8 +175,3 @@ Additionally, a log file will be generated in the `logs` folder, and HTML report
 
 - Submit a Pull Request:
   Push your branch to your forked repository and create a pull request to merge your changes into the main project.
-
-## License:
-
-This project is open-source and licensed under the MIT License. You are free to use, modify, and distribute the code according to the terms of the license.
-
