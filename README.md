@@ -111,23 +111,23 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
 <!-- Adapter to integrate ExtentReports with Cucumber 7 -->
 ```
 
-## AssertionHelper
+### AssertionHelper
 
 The `AssertionHelper` class contains a custom assertion method called `asserter`, which is used to check if a given condition is true. If the condition is false, an assertion error will be thrown.
 
-## HttpApiProcessor
+### HttpApiProcessor
 
 The `HttpApiProcessor` class handles HTTP requests and responses for API testing. It utilizes HttpClient to perform GET requests, retrieve endpoint details from the configuration, parse and pretty-print JSON responses, and store the formatted JSON for further validations.
 
-## LogPrinter
+### LogPrinter
 
 The `LogPrinter` class provides utility methods to log API testing information and validation results.
 
-## ResponseValidator
+### ResponseValidator
 
 The `ResponseValidator` class provides methods to validate fields in an API response and perform data validation based on the provided DataTable.
 
-## Configuration Files
+### Configuration Files
 
 - **Application-test.yml:** The `application-test.yml` file contains API configuration settings required for testing. This includes defining endpoint URLs, timeouts, and other necessary properties.
 
@@ -135,7 +135,7 @@ The `ResponseValidator` class provides methods to validate fields in an API resp
 
 - **logback.xml:** The `logback.xml` file contains the logging configuration for the project. It specifies log output formats, log levels, and log file locations. The logger outputs a log file in the logs folder.
 
-## ApiGetRequestValidationSteps
+### ApiGetRequestValidationSteps
 
 The `ApiGetRequestValidationSteps` class contains step definitions for the API validation scenarios.
 
@@ -147,4 +147,41 @@ Follow these steps to run the tests:
    First, make a copy of the project on your computer by "cloning" it. You can do this by running the following command in the terminal or command prompt:
    ```bash
    git clone https://github.com/your-username/assurity-api-automation-assignment.git
+   ```
+2. Import the Project:
+   Open your Java IDE (Eclipse, IntelliJ, etc.).
+   Import the project as a Maven project by selecting the root folder of the cloned repository.
+
+3. Review Test Data and Scenarios:
+   Go to the `src/test/resources/features` folder to find the feature file. This file contains the test scenarios written in an easy-to-understand language.
+
+4. Check the TestRunner:
+   Open the `TestRunner.java` file located in `src/test/java/com/assurity/testrunner`. You can review the scenarios included in the test run or exclude some if needed.
+
+5. Run the Tests:
+  Execute the Cucumber tests using your IDE's test runner or by running the `TestRunner` class.
+
+6. View Test Results:
+- The test results will be displayed in the console.
+- Additionally, a log file will be generated in the `logs` folder, and HTML reports will be available in the `reports` folder. These reports provide a detailed overview of the test execution and results.
+
+Additional Notes:
+- For a better understanding of each file's purpose and configuration, check the comments within the files, feature files, step definitions, classes, and configuration files.
+
+## Contributing:
+
+We welcome contributions from the community! If you'd like to contribute to the project, follow these steps:
+
+- Fork the Project:
+  Create your own copy of the project by forking it on GitHub.
+
+- Make Your Changes:
+  Create a new branch from the main branch and make your desired changes.
+
+- Submit a Pull Request:
+  Push your branch to your forked repository and create a pull request to merge your changes into the main project.
+
+## License:
+
+This project is open-source and licensed under the MIT License. You are free to use, modify, and distribute the code according to the terms of the license.
 
