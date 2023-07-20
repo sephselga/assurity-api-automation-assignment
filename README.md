@@ -140,7 +140,7 @@ Follow these steps to run the tests:
      ```bash
      git clone https://github.com/your-username/assurity-api-automation-assignment.git
      ```
-  - You can also get the ZIP file of the repository and extracting it to get the actual project.
+   - You can also get the ZIP file of the repository and extracting it to get the actual project.
 
 2. **Import the Project:**
    - Open your Java IDE (Eclipse, IntelliJ, etc.).
