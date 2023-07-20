@@ -162,16 +162,3 @@ Additionally, a log file will be generated in the `logs` folder, and HTML report
 
 ## Additional Notes:
 - For a better understanding of each file's purpose and configuration, check the comments within the files, feature files, step definitions, classes, and configuration files.
-
-## Contributing:
-
-**We welcome contributions from the community! If you'd like to contribute to the project, follow these steps:**
-
-- Fork the Project:
-  Create your own copy of the project by forking it on GitHub.
-
-- Make Your Changes:
-  Create a new branch from the main branch and make your desired changes.
-
-- Submit a Pull Request:
-  Push your branch to your forked repository and create a pull request to merge your changes into the main project.
