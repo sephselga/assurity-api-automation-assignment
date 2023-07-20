@@ -138,33 +138,34 @@ The `ApiGetRequestValidationSteps` class contains step definitions for the API v
 Follow these steps to run the tests:
 
 1. **Clone the Project:**
-   First, make a copy of the project on your computer by "cloning" it. You can do this by running the following command in the terminal or command prompt:
+- First, make a copy of the project on your computer by "cloning" it. You can do this by running the following command in the terminal or command prompt:
    ```bash
    git clone https://github.com/your-username/assurity-api-automation-assignment.git
    ```
 2. Import the Project:
-   Open your Java IDE (Eclipse, IntelliJ, etc.).
-   Import the project as a Maven project by selecting the root folder of the cloned repository.
+- Open your Java IDE (Eclipse, IntelliJ, etc.).
+- Import the project as a Maven project by selecting the root folder of the cloned repository.
 
 3. Review Test Data and Scenarios:
-   Go to the `src/test/resources/features` folder to find the feature file. This file contains the test scenarios written in an easy-to-understand language.
+- Go to the `src/test/resources/features` folder to find the feature file. This file contains the test scenarios written in an easy-to-understand language.
 
 4. Check the TestRunner:
-   Open the `TestRunner.java` file located in `src/test/java/com/assurity/testrunner`. You can review the scenarios included in the test run or exclude some if needed.
+- Open the `TestRunner.java` file located in `src/test/java/com/assurity/testrunner`. You can review the scenarios included in the test run or exclude some if needed.
 
 5. Run the Tests:
-  Execute the Cucumber tests using your IDE's test runner or by running the `TestRunner` class.
+- Execute the Cucumber tests using your IDE's test runner or by running the `TestRunner` class.
 
 6. View Test Results:
 - The test results will be displayed in the console.
-- Additionally, a log file will be generated in the `logs` folder, and HTML reports will be available in the `reports` folder. These reports provide a detailed overview of the test execution and results.
+
+Additionally, a log file will be generated in the `logs` folder, and HTML reports will be available in the `reports` folder. These reports provide a detailed overview of the test execution and results.
 
 Additional Notes:
 - For a better understanding of each file's purpose and configuration, check the comments within the files, feature files, step definitions, classes, and configuration files.
 
 ## Contributing:
 
-We welcome contributions from the community! If you'd like to contribute to the project, follow these steps:
+### We welcome contributions from the community! If you'd like to contribute to the project, follow these steps:
 
 - Fork the Project:
   Create your own copy of the project by forking it on GitHub.
