@@ -113,6 +113,8 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
 
 ### Class Files
 
+- **ApiGetRequestValidationSteps:** The `ApiGetRequestValidationSteps` class contains step definitions for the API validation scenarios.
+
 - **AssertionHelper:** The `AssertionHelper` class contains a custom assertion method called `asserter`, which is used to check if a given condition is true. If the condition is false, an assertion error will be thrown.
 
 - **HttpApiProcessor** The `HttpApiProcessor` class handles HTTP requests and responses for API testing. It utilizes HttpClient to perform GET requests, retrieve endpoint details from the configuration, parse and pretty-print JSON responses, and store the formatted JSON for further validations.
@@ -128,10 +130,6 @@ The `pom.xml` file is the Project Object Model (POM) for the project. It manages
 - **extent.properties:** The `extent.properties` file contains configuration settings for ExtentReports, a reporting library. It allows you to customize the appearance and behavior of the test reports.
 
 - **logback.xml:** The `logback.xml` file contains the logging configuration for the project. It specifies log output formats, log levels, and log file locations. The logger outputs a log file in the logs folder.
-
-### ApiGetRequestValidationSteps
-
-The `ApiGetRequestValidationSteps` class contains step definitions for the API validation scenarios.
 
 ## Running the Tests
 
