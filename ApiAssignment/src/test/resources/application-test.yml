@@ -2,6 +2,8 @@
 # Configuration file for the application
 # Contains various settings and properties for the application
 
+# Configuration for the 'endpoint-tmsandbox' API endpoint
+# This section specifies the details of the API endpoint to be used in the application
 endpoint-tmsandbox:
     protocol: "https"
     host: "api.tmsandbox.co.nz"
